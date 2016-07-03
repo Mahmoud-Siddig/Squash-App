@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/fav-icon.png">
+
+
+    <title>Register Player</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/squash-stylesheet.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:900,400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Header -->
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="menu clearfix">
+
+            <aside class="col-md-2 col-sm-3 col-lg-3 col-xs-2">
+              <a class="clearfix" href="#"><img src="img/logo.png"></a>
+            </aside>
+
+            <nav class="col-lg-5 col-md-6 col-sm-6 col-xs-7">
+
+              <ul class="regular-menu clearfix">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+
+             <div class="ipad-menu">
+                <select id="cd-dropdown" class="cd-select">
+                  <option value="-1" selected>Home</option>
+                  <option value="1" class="icon-tux">Pricing</option>
+                  <option value="2" class="icon-finder">Register</option>
+                  <option value="3" class="icon-windows">Login</option>
+                </select>
+              </div>
+            </nav>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="reg_title clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="reg_player">
+            <h4>Register</h4>
+            <p>There are many variations of passages of Lorem Ipsum available</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Obligatory Register -->
+
+    <div class="obligatory_reg">
+      <div class="container">
+        <div class="row">
+          <form class="form-horizontal" role="form">
+
+            <div class="form-group" id="full-name">
+              <label class="control-label col-lg-2 col-md-3 col-xs-12 col-sm-3">Full Name</label>
+              <div class="col-lg-10 col-md-9 col-xs-12 col-sm-9">
+                <input type="text" class="form-control" >
+                <span class="form-control-feedback fa fullname-icon"></span>
+              </div>
+            </div>
+
+            <div class="form-group" id="username">
+              <label class="control-label col-lg-2 col-md-3 col-sm-3">Username</label>
+              <div class="col-lg-10 col-md-9 col-sm-9">
+                <input type="text" class="form-control" >
+                <span class="form-control-feedback fa username-icon"></span>
+              </div>
+            </div>
+
+            <div class="form-group" id="email">
+                <label class="control-label col-lg-2 col-md-3 col-sm-3">Email</label>
+                <div class="col-lg-10 col-md-9 col-sm-9">
+                  <input type="text" class="form-control" >
+                  <span class="form-control-feedback fa email-icon"></span>
+                </div>
+            </div>
+
+            <div class="form-group" id="password">
+                <label class="control-label col-lg-2 col-md-3 col-sm-3">Password</label>
+                <div class="col-lg-10 col-md-9 col-sm-9">
+                  <input type="password" class="form-control" >
+                  <span class="form-control-feedback fa password-icon"></span>
+                </div>
+            </div>
+
+            <div class="form-group" id="account-type">
+                <label class="control-label col-lg-2 col-md-3 col-sm-3">Account Type</label>
+                <div class="col-lg-10 col-md-9 col-sm-9">
+                  <div class="select-holder">
+                    <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                      <option value="type 1">Type 1</option>
+                      <option value="type 2">Type 2</option>
+                      <option value="type 3">Type 3</option>
+                      <option value="type 4">Type 4</option>
+                      <option value="type 5">Type 5</option>
+                      <option value="type 6">Type 6</option>
+                      <option value="type 7">Type 7</option>
+                      <option value="type 8">Type 8</option>
+                      <option value="type 9">Type 9</option>
+                      <option value="type 10">Type 10</option>
+                      <option value="type 11">Type 11</option>
+                      <option value="type 12">Type 12</option>
+                    </select>
+                  </div>  
+                </div>
+            </div>
+
+            <div class="form-group region">
+
+                <div class="country">
+                  <label class="control-label col-lg-2 col-md-3 col-sm-3">Country</label>
+                  <div class="select-holder col-lg-3 col-md-3 col-sm-4">
+                      <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                        <option value="zambia">Zambia</option>
+                        <option value="croatia">Croatia</option>
+                        <option value="chile">Chile</option>
+                        <option value="peru">Peru</option>
+                        <option value="norway">Norway</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="japan">Japan</option>
+                        <option value="south korea">South Korea</option>
+                        <option value="iran">Iran</option>
+                        <option value="iraq">Iraq</option>
+                      </select>
+                  </div>  
+                </div>
+
+               <div class="city">
+                  <label class="control-label ol-lg-2 col-md-3 col-sm-1">City</label>
+                  <div class="select-holder col-lg-3 col-md-3 col-sm-4">
+                     <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                        <option value="mexica city">Mexico City</option>
+                        <option value="hamburg">Hamburg</option>
+                        <option value="napoli">Napoli</option>
+                        <option value="atlanta">Atalanta</option>
+                        <option value="kiev">Kiev</option>
+                        <option value="Damscus">Damscus</option>
+                        <option value="tehran">Tehran</option>
+                        <option value="asfahan">Asfahan</option>
+                        <option value="baghdad">Baghdad</option>
+                        <option value="seoul">Seoul</option>
+                        <option value="munich">Munich</option>
+                        <option value="tanga">Tanga</option>
+                    </select>
+                  </div>  
+                </div>
+            </div>
+
+            <div class="date-bith form-group">
+
+                <div>
+                  <label class="control-label col-lg-2 col-xs-12 col-md-3 col-sm-3 ">Date Of Birth</label>
+                  <div class="select-holder col-lg-2 col-xs-2 col-md-3 col-sm-3">
+                      <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+                  </div>
+
+                    <div class="select-holder col-lg-3 col-xs-5 col-md-3 col-sm-3">
+                     <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                        <option value="mexica city">January</option>
+                        <option value="hamburg">February</option>
+                        <option value="napoli">March</option>
+                        <option value="atlanta">April</option>
+                        <option value="kiev">May</option>
+                        <option value="Damscus">June</option>
+                        <option value="tehran">July</option>
+                        <option value="asfahan">August</option>
+                        <option value="baghdad">September</option>
+                        <option value="seoul">October</option>
+                        <option value="munich">November</option>
+                        <option value="tanga">December</option>
+                    </select>
+                   </div> 
+
+                      <div class="select-holder col-lg-3 col-xs-5 col-md-3 col-sm-3">
+                         <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                            <option value="mexica city">1990</option>
+                            <option value="hamburg">1991</option>
+                            <option value="napoli">1992</option>
+                            <option value="atlanta">1993</option>
+                            <option value="kiev">1994</option>
+                            <option value="Damscus">1995</option>
+                            <option value="tehran">1996</option>
+                            <option value="asfahan">1997</option>
+                            <option value="baghdad">1998</option>
+                            <option value="seoul">1999</option>
+                            <option value="munich">20001</option>
+                            <option value="tanga">2002</option>
+                        </select>  
+                      </div>
+                </div>
+            </div>
+
+            <div class="gender form-group">
+
+              <div>
+                <label class="col-lg-2 col-xs-12 col-md-3 col-sm-3">Gender</label>
+                <div class="male col-lg-2 col-xs-4 col-md-3 col-sm-3">
+                  <input type="checkbox" name="checkboxG11" id="checkboxG1" class="css-checkbox"/>
+                  <label for="checkboxG1" class="css-label">Male</label>
+                </div>
+
+                <div class="female col-lg-2 col-xs-4 col-md-3 col-sm-3">
+                  <input type="checkbox" name="checkboxG11" id="checkboxG2" class="css-checkbox"/>
+                  <label for="checkboxG2" class="css-label">Female</label>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="privacy form-group">
+
+              <div>
+                <label class="col-lg-2 col-xs-12 col-md-3 col-sm-3">Privacy</label>
+                <div class="public col-lg-2 col-xs-4 col-md-3 col-sm-3">
+                  <input type="checkbox" name="checkboxG22" id="checkboxG3" class="css-checkbox"/>
+                  <label for="checkboxG3" class="css-label">Public</label>
+                </div>
+
+                <div class="private col-lg-2 col-xs-4 col-md-3 col-sm-3">
+                  <input type="checkbox" name="checkboxG22" id="checkboxG4" class="css-checkbox"/>
+                  <label for="checkboxG4" class="css-label">Private</label>
+                </div>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>  
+
+    <!-- Optional Register -->
+
+    <div class="optional_reg">
+      <div class="container">
+        <div class="row">
+          <form class="form-horizontal" role="form">
+            <div class="phyiscal form-group">
+                <div class="weight">
+
+                  <label class="control-label col-lg-2 col-md-3 col-sm-3">Weight</label>
+
+                  <div class="select-holder col-lg-3 col-md-3 col-sm-4">
+                    <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                      <option value="zambia">Zambia</option>
+                      <option value="croatia">Croatia</option>
+                      <option value="chile">Chile</option>
+                      <option value="peru">Peru</option>
+                      <option value="norway">Norway</option>
+                      <option value="sweden">Sweden</option>
+                      <option value="denmark">Denmark</option>
+                      <option value="ghana">Ghana</option>
+                      <option value="japan">Japan</option>
+                      <option value="south korea">South Korea</option>
+                      <option value="iran">Iran</option>
+                      <option value="iraq">Iraq</option>      
+                    </select>
+                  </div>  
+                </div>
+
+                <div class="height">
+                  <label class="control-label col-lg-2 col-md-3 col-sm-1">Height</label>
+                    <div class="select-holder col-lg-3 col-md-3 col-sm-4">
+                      <select name="somename" class="SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
+                        <option value="mexica city">Mexico City</option>
+                        <option value="hamburg">Hamburg</option>
+                        <option value="napoli">Napoli</option>
+                        <option value="atlanta">Atalanta</option>
+                        <option value="kiev">Kiev</option>
+                        <option value="Damscus">Damscus</option>
+                        <option value="tehran">Tehran</option>
+                        <option value="asfahan">Asfahan</option>
+                        <option value="baghdad">Baghdad</option>
+                        <option value="seoul">Seoul</option>
+                        <option value="munich">Munich</option>
+                        <option value="tanga">Tanga</option>
+                      </select>
+                    </div>  
+                </div>
+            </div>
+            <div class="form-group" id="sponsor">
+              <label class="control-label col-lg-2 col-md-3 col-sm-3">Sponsor</label>
+              <div class="col-lg-10 col-md-9 col-sm-9">
+                <input type="text" class="form-control" >
+              </div>
+            </div>
+
+            <div class="form-group" id="model">
+              <label class="control-label col-lg-2 col-md-3 col-sm-3">Racquet Model </label>
+              <div class="col-lg-10 col-md-9 col-sm-9">
+                <input type="text" class="form-control" >
+              </div>
+            </div>
+
+            <div class="form-group" id="website">
+                <label class="control-label col-lg-2 col-md-3 col-sm-3">Website</label>
+                <div class="col-lg-10 col-md-9 col-sm-9">
+                  <input type="text" class="form-control" >
+                  <span class="form-control-feedback fa web-icon"></span>
+                </div>
+            </div>
+
+            <div class="form-group" id="sat">
+                <label class="control-label col-lg-2 col-md-3 col-sm-3">SAT Score</label>
+                <div class="col-lg-10 col-md-9 col-sm-9">
+                  <input type="password" class="form-control" >
+                </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Register / Reset  -->
+
+    <div class="buttons">
+      <a href="#" class="register">Register</a>
+      <a href="#" class="reset">Reset</a>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>Copyright © 2014. All rights reserved</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+    <script src="js/modernizr.custom.63321.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+
+  </body>
+</html>
